@@ -1,0 +1,17 @@
+storage:
+  image: ubuntu:14.04
+  volumes:
+    - /mnt/sda1/dev/deploys:/var/deploys
+    - /mnt/sda1/dev/repositories:/var/repositories
+    - /mnt/sda1/dev/connectors:/var/connectors
+db:
+  image: mongo:3.0
+  volumes: 
+    - /mnt/sda1/dev/data/db:/data/db
+  command: mongod --smallfiles
+  ports:
+    - "27017"
+redis:
+  image: redis:3.0
+  ports:
+    - "6379"
