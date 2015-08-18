@@ -1,17 +1,13 @@
-Welcome to Hoist
+Contributing to Hoist
 ======
 
-This repository is specifically for keeping company wide information for Hoist http://hoistapps.com
-
-We welcome feedback and issues being raised here we just ask that you keep to the folowing format
-
-please note that hoist.js issues should be filed at http://github.com/hoist/hoist.js
 
 Submitting Feature Requests
 ===
 Simply open up an issue and label it as a feature request
 
 We'll then comment on the issue if we need more detail to understand the request
+
 
 Submitting Issues
 ====
